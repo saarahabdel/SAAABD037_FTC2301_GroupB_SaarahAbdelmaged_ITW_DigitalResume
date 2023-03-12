@@ -3,22 +3,25 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="stylesheet.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> My Digital Resume</title>
     </head>
-
-    <header>
-        <h1>Saarah Abdelmaged</h1>
-        <h2>Software Engineer</h2>
-    <header>
-    <header>    
-        <p>
-            <h2>An Introductory Statement</h2><h3> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3>
-        </p>
-        <section>  <!--for contact link, hithub link and skills-->
+    
+    <div class="grid-container">
+    <header class="header1">
+        <h1>SAARAH ABDELMAGED</h1>
+        <br>
+        <h2>SOFTWARE ENGINEER</h2>
+    </header>
+    
+    <header class="sidebar">    
+        <section class="sidebar-container">  <!--for contact link, hithub link and skills-->
+            
             <a class="contact-link" href="#education">CONTACT</a>
-            <a href="https://github.com/saarahabdel">GITHUB ACCOUNT</a>
+            <br>
+            <a class="github-link" href="https://github.com/saarahabdel">GITHUB ACCOUNT</a>
             <aside>
-                <h2>Skills</h2>
+                <h2 class="skills">Skills</h2>
                 <h3>Programming Languages</h3>
                 <ul>
                     <li>HTML</li>
@@ -39,7 +42,10 @@
     </header>
 
     <body>
-        <section> <!--eduction, experience, hobbies-->
+        <section class="right-section"> <!--intro statement,eduction, experience, hobbies-->
+            <p>
+                <h2>An Introductory Statement</h2><h3> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3>
+            </p>
             <h2>Education</h2>
             <ul>
                 <li>Habibia Primary School - 2014</li>
@@ -92,7 +98,7 @@
         </section>
     </body>
 
-    <footer>
+    <footer class="footer">
         <h2>Contact</h2> <!--for git hub and linked in icons-->
         <h2>Contact Form</h2> <!--for contact form-->
         <form action="https://formsubmit.co/saarahabdel15@gmail.com" method="POST">
@@ -112,6 +118,7 @@
             <textarea name="additionalinfo" cols="50" rows="7"></textarea>
             <input type="submit" name="submit" value="Submit">
     </footer>
+    </div>
 
 
 </html>

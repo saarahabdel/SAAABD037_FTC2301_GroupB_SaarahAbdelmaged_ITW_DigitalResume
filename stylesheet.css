@@ -1,1 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none; /*removed dots on sides of lists*/
+}
+
+html{
+    font-size: 16px;
+    font-family: sans-serif; /*want 'inter' font*/   
+}
+
+
+/* basic positioning of child elements using grid*/
+.grid-container{
+    display: grid;
+    grid-gap: 15px;
+    margin: 15px;
+    grid-template-columns: repeat(3, 1fr); /*3 columns*/
+    grid-template-rows: repeat(3, 1fr);    
+}
+
+.header1{
+    grid-row-start: 1;
+    grid-row-end: -1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    z-index: 1;
+}
+
+
+.sidebar{
+    grid-row-start: 1;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.footer, .right-section{
+    grid-column: 2/4
+}
+
+/* ------------------------------------------------------- */
+
+
+/* this is to see where everything is */
+
+
+/*.sidebar{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background: #D9C4EC;
+}*/
+
+
+.right-section{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background: white;
+}
+
+.footer{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background: green;
+}
+/* this is to see where everything is */
+
+
+/*styling for header with name and title*/
+.header1{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background: white;
+    align-self: center;
+    width: fit-content;
+    block-size: fit-content;
+    position: relative;
+    left: 30%;
+    top: 20%;
+    padding: 5%;
+}
+
+.header1 h1{
+    text-align: center;
+    font-size:1rem;
+}
+
+.header1 h2{
+    text-align:center;
+    font-size: 0.5em;
+}
+
+/* styling sidebar */
+.sidebar{
+    margin-top: -8.5%;
+    margin-left: -8.5%;
+    background-color: #D9C4EC;
+    
+}
+
+.contact-link, .github-link{
+    background-color: white;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 40px;
+}
+
+.github-link{
+    background-color: white;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 10px;
+}
+ /*-----------------------------------------------------*/
+
+
+
+
+/*for responsiveness*/
+@media screen and (max-width: 620px){
+
+} /*for mobile*/
+
+@media screen and (max-width: 960px){
+
+} /*for tablet*/
+
+@media screen and (max-width: 1200px){
+
+} /*for desktop*/
+
 

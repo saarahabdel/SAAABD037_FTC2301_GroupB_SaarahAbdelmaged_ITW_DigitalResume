@@ -7,8 +7,8 @@
 }
 
 html{
-    font-size: 16px;
-    font-family: sans-serif; /*want 'inter' font*/   
+    font-family: sans-serif; /*want 'inter' font*/ 
+    border: 1px solid black;  
 }
 
 
@@ -44,33 +44,6 @@ html{
 /* ------------------------------------------------------- */
 
 
-/* this is to see where everything is */
-
-
-/*.sidebar{
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    background: #D9C4EC;
-}*/
-
-
-.right-section{
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    background: white;
-}
-
-.footer{
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    background: green;
-}
-/* --------------------------------------------- */
-
-
 /*styling for header with name and title*/
 .header1{
     border-style: solid;
@@ -84,16 +57,17 @@ html{
     left: 30%;
     top: 20%;
     padding: 5%;
+
 }
 
 .header1 h1{
     text-align: center;
-    font-size:1rem;
+    font-size:16px;
 }
 
 .header1 h2{
     text-align:center;
-    font-size: 0.5em;
+    font-size: 10px;
 }
 
 /*--------------------------------------------------*/
@@ -101,19 +75,14 @@ html{
 /* styling sidebar */
 .sidebar{
     background-color: #D9C4EC;
-    
 }
 
 .sidebar-container{
-    
     flex-flow: column;
     flex-wrap: wrap;
     
     align-items: center;   
-
-    display: inline-flex;
-    flex-wrap: wrap;
-    
+    display: inline-flex;   
 }
 
 .contact-link{
@@ -154,14 +123,45 @@ html{
 
  /*right section styling*/
  .right-section h2{
-    font-size: 16px;
-    text-align: center;
-    margin-top: 1em;
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 2em;
  }
 
- .right-section h3{
-    text-align: center;
+ .right-section p{
+    text-align: justify;
     font-weight: 100;
+ }
+
+ .education-list li{
+     text-align: justify;
+     padding-bottom: 1em;
+     list-style: disc;
+     margin-left: 2em;
+ }
+
+ hr{
+    border: 1px solid black;
+    margin-bottom: 1em;
+ }
+
+ .hobbies li{
+    list-style:disc;
+    margin-left: 2em;
+ }
+
+ .experience li{
+    list-style: disc;
+    margin-left: 2em;
+ }
+
+ /*----------------------------------------------*/
+
+ /*footer styling*/
+ .footer h2{
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 2em;
  }
 
 

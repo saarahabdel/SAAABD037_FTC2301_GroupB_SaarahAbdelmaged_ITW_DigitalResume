@@ -7,8 +7,7 @@
 }
 
 html{
-    font-family: sans-serif; /*want 'inter' font*/ 
-    border: 1px solid black;  
+    font-family: sans-serif; /*want 'inter' font*/  
 }
 
 
@@ -16,7 +15,7 @@ html{
 .grid-container{
     display: grid;
     grid-gap: 15px;
-    margin: 15px;
+    /*margin: 15px;*/
     grid-template-columns: repeat(3, 1fr); /*3 columns*/
     grid-template-rows: repeat(3, 1fr);    
 }
@@ -28,7 +27,6 @@ html{
     grid-column-end: 4;
     z-index: 1;
 }
-
 
 .sidebar{
     grid-row-start: 1;
@@ -57,17 +55,20 @@ html{
     left: 30%;
     top: 20%;
     padding: 5%;
-
 }
 
 .header1 h1{
     text-align: center;
     font-size:16px;
+
+    font-size: calc(1rem + 1.1vw);
 }
 
 .header1 h2{
     text-align:center;
     font-size: 10px;
+
+    font-size: calc(1rem + 0.1vw);
 }
 
 /*--------------------------------------------------*/
@@ -85,23 +86,19 @@ html{
     display: inline-flex;   
 }
 
-.contact-link{
-    flex-basis: 2em;
 
-    text-decoration: none;
-    color:black;
-    background-color: white;
-    padding: 0.5em 0.75em 0.5em 0.75em; /*top right bottom left*/  
-    margin-top: 11em;   
+
+
+.fa-github{
+    font-size: 3rem;
+    
 }
 
-.github-link{
-    flex-basis: 2em;
-
-    background-color: white;
-    padding: 0.5em 2em 0.5em 2em;
-    margin-top: 1em;  
+.fa-address-card{
+    font-size: 3rem;
 }
+
+
 
 .github-link1{
     text-decoration: none;
@@ -118,12 +115,11 @@ html{
     font-size: 1em;
 }
 
-
  /*-----------------------------------------------------*/
 
  /*right section styling*/
  .right-section h2{
-    font-size: 14px;
+    font-size: calc(1rem + 0.5vw);
     text-align: justify;
     margin-top: 2em;
  }
@@ -131,6 +127,9 @@ html{
  .right-section p{
     text-align: justify;
     font-weight: 100;
+    font-size: calc(1rem + 0.2vw);
+    margin-right: 1em; /*so sentences in line with hr*/
+
  }
 
  .education-list li{
@@ -138,30 +137,46 @@ html{
      padding-bottom: 1em;
      list-style: disc;
      margin-left: 2em;
+     font-size: calc(1rem + 0.2vw);
  }
 
  hr{
     border: 1px solid black;
     margin-bottom: 1em;
+    margin-right: 1em;
  }
 
  .hobbies li{
     list-style:disc;
     margin-left: 2em;
+    font-size: calc(1rem + 0.2vw);
  }
 
  .experience li{
     list-style: disc;
     margin-left: 2em;
+    font-size: calc(1rem + 0.2vw);
+ }
+
+ .experience-list h3{
+    font-size: calc(1rem + 0.2vw);
  }
 
  /*----------------------------------------------*/
 
  /*footer styling*/
  .footer h2{
-    font-size: 14px;
+    font-size: calc(1rem + 0.3vw);
     text-align: justify;
     margin-top: 2em;
+ }
+
+ .footer label{
+    font-size: calc(1rem + 0.3vw);
+ }
+
+ .myemail{
+    font-size: calc(1rem + 0.3vw);
  }
 
 

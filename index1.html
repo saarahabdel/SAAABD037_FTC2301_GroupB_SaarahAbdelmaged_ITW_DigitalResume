@@ -1,32 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="stylesheet.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> My Digital Resume</title>
-    </head>
-    
-    <div class="grid-container">
+ <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6aff9a1cb7.js" crossorigin="anonymous"></script>
+    <title> My Digital Resume</title>
+ </head>
+
+ <div class="grid-container">
     <header class="header1">
-        <h1>SAARAH ABDELMAGED</h1>
-        <br>
+        <h1>SAARAH ABDELMAGED</h1><br>
         <h2>SOFTWARE ENGINEER</h2>
     </header>
-    
-    <header class="sidebar">    
-        <section class="sidebar-container">  <!--for contact link, hithub link and skills-->
-            
+
+    <header class="sidebar">
+        <section class="sidebar-container">
             <button class="contact-link">
-            <a class="contact-link" href="#education">CONTACT</a>
+                <a class="contact-link" href="#contact-link1"><i class="fa-solid fa-address-card"></i></a>
+                <img src="contact-icon.png" alt="contact-icon">
             </button>
-            <br>
-            <button class="github-link">
-            <a class="github-link1" href="https://github.com/saarahabdel">GITHUB</a>
-            </button>
+                <a class="github-link1" href="https://github.com/saarahabdel"><i class="fa-brands fa-github"></i></a>
             <aside class="skills">
-                <h2>SKILLS</h2>
-                <br>
+                <h2>SKILLS</h2><br>
                 <h3>Programming Languages</h3>
                 <ul>
                     <li>HTML</li>
@@ -39,22 +35,20 @@
                     <li>Github</li>
                 </ul>
                 <br>
-                <h3>Software I'm comfotable with</h3>
+                <h3>Software I'm comfortable with</h3>
                 <ul>
                     <li>Idk yet</li>
                     <li>Idk yet</li>
                 </ul>
-            </aside> <!--used because skills will be on left sidebar-->
-        </section>    
+            </aside>
+        </section>
     </header>
 
     <body>
-        <section class="right-section"> <!--intro statement,eduction, experience, hobbies-->
-            
-                <h2>AN INTRODUCTORY STATEMENT</h2>
-                <hr>
-                <p> Junior Software Developer comfortable in the languages HTML and CSS.</p>
-
+        <section class="right-section">
+            <h2>AN INTRODUCTORY STATEMENT</h2>
+            <hr>
+            <p>Junior Software Developer comfortable in the languages HTML and CSS.</p>
             <br><br>
             <h2>EDUCATION</h2>
             <hr>
@@ -66,9 +60,9 @@
             </ul>
             <br><br>
             <section class="experience-list">
-            <h2>EXPERIENCE</h2>
-            <hr>
-            <h3>Serene Classic Wear & Uniforms (02/2021 - 06/2019)</h3>
+                <h2>EXPERIENCE</h2>
+                <hr>
+                <h3>Serene Classic Wear & Uniforms (02/2021 - 06/2019)</h3>
             <div class="experience">
             <ul>
                 <li>worked on weekends and during school holidays</li>
@@ -101,7 +95,7 @@
                     <li>became a top performing employee within a month</li>
                 </ul>
                 </div>
-                </section>
+            </section>
             <br><br>
             <h2>HOBBIES</h2>
             <hr>
@@ -115,37 +109,32 @@
             </ul>
         </section>
     </body>
-
-    <footer class="footer">
-        
-        <h2>CONTACT FORM</h2> <!--for contact form-->
+    <footer class="footer" id="#contact-link1">
+        <h2>CONTACT FORM</h2>
         <hr>
         <br>
         <div class="myemail">Email: saarahabdel15@gmail.com</div>
         <br>
         <form action="https://formsubmit.co/saarahabdel15@gmail.com" method="POST">
-            
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required>
-
-            <br><br>
-        
-            <label for="subject">Subject of Email:</label>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+        <label for="subject">Subject of Email:</label>
             <select name="_subject" required> <!--_subject, to be in email subject line-->
-            <option value="Job Opportunity">Job Opportunity</option>
-            <option value="Comment on Resume">Comment on Resume</option>
-            <option value="Require Response">Require Response</option>
+                <option value="Job Opportunity">Job Opportunity</option>
+                <option value="Comment on Resume">Comment on Resume</option>
+                <option value="Require Response">Require Response</option>
             </select>
-            <br><br>
-
-            <label for="additionalinfo">Additional Information:</label>
-            <br>
-            <textarea name="additionalinfo" cols="50" rows="7"></textarea>
-            <input type="submit" name="submit" value="Submit">
-            <h2></h2> <!--for git hub and linked in icons-->
-        </form>    
+        <br><br>
+        <label for="additionalinfo">Additional Information:</label>
+        <br>
+        <textarea name="additionalinfo" cols="50" rows="7"></textarea>
+        <input type="submit" name="submit" value="Submit">
+        <h2></h2> <!--for git hub and linked in icons-->
+        </form>
     </footer>
-    </div>
+    <a class="github-link1" href="https://github.com/saarahabdel"><i class="fa-brands fa-github"></i></a>
+ </div>
+</html> 
 
 
-</html>

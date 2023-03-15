@@ -1,5 +1,13 @@
-html{
-    background-color: #d9c4ec;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background-image{
+    background-image: url(/images/backgroundimagefinal.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .images img{
@@ -8,24 +16,38 @@ html{
     width: 100%;
     max-width: 200px; /*change for others in media queries*/
     height: auto;
+
+    border: solid #D9C4EC;
 }
 
+/*positioning of images using grid & centering text*/
 .images{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
     grid-template-rows:repeat(6, 1fr);
+
+    margin: 3rem;
+
 }
 
 h1{
     font-family: sans-serif;
     text-align: center;
     font-size: 7vw;
+    font-weight: bold;
+
+    position: sticky;
+    top: 0;
 
     border: black solid;
-    background-color: white;
+    background-color: #D9C4EC;
 }
 
 .img1{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
@@ -33,6 +55,10 @@ h1{
 }
 
 .img2{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 3;
@@ -40,6 +66,10 @@ h1{
 }
 
 .img3{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+
     grid-row-start: 3;
     grid-row-end: 4;
     grid-column-start: 1;
@@ -47,6 +77,10 @@ h1{
 }
 
 .img4{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+
     grid-row-start: 4;
     grid-row-end: 5;
     grid-column-start: 3;
@@ -54,11 +88,50 @@ h1{
 }
 
 .img5{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+
     grid-row-start: 5;
     grid-row-end: 6;
     grid-column-start: 1;
     grid-column-end: 2;
 }
+
+.caption{
+    display:block;
+
+    border: solid black;
+    background-color: #D9C4EC;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/*-----------------------------------------------*/
+
+
+/*image hover effect*/
+.img1:hover{
+    transform: scale(1.5);
+}
+
+.img2:hover{
+    transform: scale(1.5);
+}
+
+.img3:hover{
+    transform: scale(1.5);
+}
+
+.img4:hover{
+    transform: scale(1.5);
+}
+
+.img5:hover{
+    transform:scale(1.5);
+}
+/*---------------------------------------------*/
+
 
 
 

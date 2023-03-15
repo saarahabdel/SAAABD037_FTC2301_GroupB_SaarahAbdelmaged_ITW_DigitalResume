@@ -35,6 +35,15 @@ html{
     grid-column-end: 2;
 }
 
+.gitcon{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+    margin: 2em;
+}
+
 .footer, .right-section{
     grid-column: 2/4
 }
@@ -54,11 +63,11 @@ html{
     position: relative;
     left: 30%;
     top: 20%;
-    padding: 5%;
+    padding: 7%;
 }
 
 .header1 h1{
-    text-align: center;
+    text-align:center;
     font-size:16px;
 
     font-size: calc(1rem + 1.1vw);
@@ -66,8 +75,6 @@ html{
 
 .header1 h2{
     text-align:center;
-    font-size: 10px;
-
     font-size: calc(1rem + 0.1vw);
 }
 
@@ -78,42 +85,18 @@ html{
     background-color: #D9C4EC;
 }
 
-.sidebar-container{
-    flex-flow: column;
-    flex-wrap: wrap;
-    
-    align-items: center;   
-    display: inline-flex;   
-}
-
-
-
-
-.fa-github{
-    font-size: 3rem;
-    
-}
-
-.fa-address-card{
-    font-size: 3rem;
-}
-
-
+/* --------------------------------------------- */
 
 .github-link1{
     text-decoration: none;
     color:black;
 }
 
-.skills{
-    margin-top: 4em;
-    margin-left: 1em;
-    
+.fa-address-card{
+    font-size: 3rem;
+    color: black;
 }
 
-.skills h3{
-    font-size: 1em;
-}
 
  /*-----------------------------------------------------*/
 
@@ -162,6 +145,16 @@ html{
     font-size: calc(1rem + 0.2vw);
  }
 
+ .skills-list h3{
+    font-size: calc(1rem + 0.2vw);
+ }
+
+ .skills-list li{
+    list-style: disc;
+    margin-left: 2em;
+    font-size: calc(1rem + 0.2vw);
+ }
+
  /*----------------------------------------------*/
 
  /*footer styling*/
@@ -178,6 +171,45 @@ html{
  .myemail{
     font-size: calc(1rem + 0.3vw);
  }
+
+ .fa-linkedin{
+    font-size: calc(3rem + 1.5vw);
+    color: black;
+}
+
+.fa-github{
+    font-size: calc(3rem + 1.5vw);
+    color: black;  
+}
+
+.fa-instagram{
+    font-size: calc(3rem + 1.5vw);
+    color: black;
+}
+
+.fa-whatsapp{
+    font-size: calc(3rem + 1.5vw);
+    color: black;
+}
+
+.fa-link{  /*hobbies link*/
+    font-size: calc(1rem + 0.5vw);
+    color: black; 
+}
+
+.hobbies-link{ /*hobbies link icon*/
+    font-size: calc(1rem + 0.5vw);
+}
+
+.profile-links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+    margin-left: 16vw;
+}
+
+
+
 
 
 

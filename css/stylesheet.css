@@ -103,12 +103,10 @@ html{
  /*right section styling*/
  .right-section h2{
     font-size: calc(1rem + 0.5vw);
-    text-align: justify;
     margin-top: 2em;
  }
 
  .right-section p{
-    text-align: justify;
     font-weight: 100;
     font-size: calc(1rem + 0.2vw);
     margin-right: 1em; /*so sentences in line with hr*/
@@ -116,7 +114,6 @@ html{
  }
 
  .education-list li{
-     text-align: justify;
      padding-bottom: 1em;
      list-style: disc;
      margin-left: 2em;

@@ -105,7 +105,6 @@ h1{
     background-color: #D9C4EC;
     font-family: sans-serif;
     font-weight: bold;
-
 }
 
 /*-----------------------------------------------*/
@@ -113,27 +112,95 @@ h1{
 
 /*image hover effect*/
 .img1:hover{
-    transform: scale(1.5);
+    transform: scale(2);
 }
 
 .img2:hover{
-    transform: scale(1.5);
+    transform: scale(2);
 }
 
 .img3:hover{
-    transform: scale(1.5);
+    transform: scale(2);
 }
 
 .img4:hover{
-    transform: scale(1.5);
+    transform: scale(2);
 }
 
 .img5:hover{
-    transform:scale(1.5);
+    transform:scale(2);
 }
 /*---------------------------------------------*/
 
 /*media queries ---------------------------------*/
+
+
+/*responsiveness for mobile*/
+@media screen and (max-width: 360px){
+    .caption{
+        font-size: 4vw;
+    }   
+} 
+
+
+/*responsiveness for tablet*/
+@media screen and (min-width: 760px){
+    .images img{
+        max-width: 300px;   
+    }
+
+    .img1:hover{
+        transform: scale(1);
+    }
+    
+    .img2:hover{
+        transform: scale(1);
+    }
+    
+    .img3:hover{
+        transform: scale(1);
+    }
+    
+    .img4:hover{
+        transform: scale(1);
+    }
+    
+    .img5:hover{
+        transform:scale(1);
+    }
+} 
+
+
+/*responsiveness for desktop*/
+@media screen and (min-width: 1200px){
+    .caption{
+        font-size: 3vw;
+    }
+
+    .img1:hover{
+        transform: scale(1);
+    }
+    
+    .img2:hover{
+        transform: scale(1);
+    }
+    
+    .img3:hover{
+        transform: scale(1);
+    }
+    
+    .img4:hover{
+        transform: scale(1);
+    }
+    
+    .img5:hover{
+        transform:scale(1);
+    }
+
+    .images img{
+        max-width: 500px;   
+    }
+}
 
 
 

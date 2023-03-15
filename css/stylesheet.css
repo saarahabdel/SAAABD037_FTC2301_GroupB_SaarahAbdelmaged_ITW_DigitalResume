@@ -210,20 +210,16 @@ html{
 
 
 
+/*responsiveness for mobile*/
+@media screen and (max-width: 360px){
+} 
 
+/*responsiveness for tablet*/
+@media screen and (max-width: 760px){
+} 
 
-
-/*for responsiveness*/
-@media screen and (max-width: 620px){
-
-} /*for mobile*/
-
-@media screen and (max-width: 960px){
-
-} /*for tablet*/
-
+/*responsiveness for desktop*/
 @media screen and (max-width: 1200px){
-
-} /*for desktop*/
+}
 
 

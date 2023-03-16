@@ -1,5 +1,5 @@
 # SAAABD037_FTC2301_GroupB_SaarahAbdelmaged_ITW_DigitalResume
-
+Author: Saarah Abdelmaged 
 Project Description:
 Capstone Project - Responsive digital resume at three breakpoints demonstrating my undertsanding of the course content.
 

@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none; /*removed dots on sides of lists*/
+    list-style: none;
     font-size: 12px;
 }
 
 html{
-    font-family: sans-serif; /*want 'inter' font*/  
+    font-family: sans-serif;  
 }
 
 
@@ -206,14 +206,6 @@ html{
 }
 
 
-
-/*responsiveness for mobile*/
-@media screen and (max-width: 360px){
-} 
-
-/*responsiveness for tablet*/
-@media screen and (max-width: 760px){
-} 
 
 /*responsiveness for desktop*/
 @media screen and (min-width: 1200px){

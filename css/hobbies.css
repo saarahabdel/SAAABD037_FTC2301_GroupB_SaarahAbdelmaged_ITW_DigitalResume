@@ -10,13 +10,13 @@
     background-position: center;
 }
 
+/*for shape of images*/
 .images img{
     display: circle;
     border-radius: 50%;
     width: 100%;
     max-width: 200px; /*change for others in media queries*/
     height: auto;
-
     border: solid #D9C4EC;
 }
 
@@ -25,9 +25,7 @@
     display: grid;
     grid-template-columns:repeat(3, 1fr);
     grid-template-rows:repeat(6, 1fr);
-
     margin: 3rem;
-
 }
 
 .hobbies1{
@@ -50,7 +48,7 @@
 }
 
 
-
+/*positioning of images and their captions*/
 .img1{
     vertical-align: top;
     display: inline-block;

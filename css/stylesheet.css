@@ -87,18 +87,6 @@ html{
 
 /* --------------------------------------------- */
 
-.github-link1{
-    text-decoration: none;
-    color:black;
-}
-
-.fa-address-card{
-    font-size: 3rem;
-    color: black;
-}
-
-
- /*-----------------------------------------------------*/
 
  /*right section styling*/
  .right-section h2{
@@ -114,11 +102,25 @@ html{
  }
 
  .education-list li{
-     padding-bottom: 1em;
-     list-style: disc;
-     margin-left: 2em;
-     font-size: calc(1rem + 0.2vw);
+    padding-bottom: 1em;
+    list-style: disc;
+    margin-left: 2em;
+    font-size: calc(1rem + 0.2vw);
  }
+
+ .jump-to-list li{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+    margin-left: 16vw;
+    display:inline-block;
+ }
+
+.fa-address-book{
+    font-size: calc(3rem + 1.5vw);
+    color: #A28EB4;
+}
+
 
  hr{
     border: 1px solid black;
@@ -152,6 +154,12 @@ html{
     font-size: calc(1rem + 0.2vw);
  }
 
+ .github-link1{
+    text-decoration: none;
+    color:#A28EB4;
+}
+
+
  /*----------------------------------------------*/
 
  /*footer styling*/
@@ -171,22 +179,22 @@ html{
 
  .fa-linkedin{
     font-size: calc(3rem + 1.5vw);
-    color: black;
+    color: #A28EB4;
 }
 
 .fa-github{
     font-size: calc(3rem + 1.5vw);
-    color: black;  
+    color: #A28EB4;  
 }
 
 .fa-instagram{
     font-size: calc(3rem + 1.5vw);
-    color: black;
+    color: #A28EB4;
 }
 
 .fa-whatsapp{
     font-size: calc(3rem + 1.5vw);
-    color: black;
+    color: #A28EB4;
 }
 
 .fa-link{  /*hobbies link*/
